@@ -1,37 +1,54 @@
-```
-# Dependencies
-.venv/
-venv/
-__pycache__/
+```gitignore
+# Compiled and binary files
 *.pyc
-*.pyo
-*.pyd
+__pycache__/
+*.class
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
 
-# Build and distribution artifacts
-dist/
-build/
-*.egg-info/
-
-# Logs
-*.log
-
-# Environment variables
+# Dependencies
+node_modules/
+venv/
+.venv/
 .env
 .env.local
-*.env.*
+.env.*
 
-# Editors
+# Build artifacts
+dist/
+build/
+target/
+
+# IDE and editor files
 .vscode/
 .idea/
 *.swp
 *.swo
+*.tmp
 
-# OS generated files
+# System files
 .DS_Store
 Thumbs.db
 
-# Testing
-.coverage
+# Logs
+*.log
+
+# Coverage
+coverage/
 htmlcov/
-.coverage.*
+.coverage
+
+# Gradle
+.gradle/
+
+# MyPy
+.mypy_cache/
+
+# Pytest
+.pytest_cache/
 ```

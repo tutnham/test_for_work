@@ -1,78 +1,78 @@
-# Local AI Models Hub
+# Локальные модели ИИ
 
-A comprehensive website showcasing the benefits, drawbacks, and practical applications of running AI models locally on your own hardware.
+Обширный веб-сайт, демонстрирующий преимущества, недостатки и практические применения запуска ИИ моделей локально на собственном оборудовании.
 
-## Overview
+## Обзор
 
-This website serves as a resource hub for individuals and organizations interested in exploring local AI models. It covers:
+Этот веб-сайт служит центром ресурсов для людей и организаций, интересующихся изучением локальных ИИ моделей. Он охватывает:
 
-- Popular local AI models available today
-- Benefits of running AI models locally
-- Drawbacks and challenges to consider
-- Practical use cases and applications
-- Hardware and software requirements
-- Getting started guides and resources
+- Популярные локальные ИИ модели, доступные сегодня
+- Преимущества запуска ИИ моделей локально
+- Недостатки и вызовы, которые следует учитывать
+- Практические случаи использования и применения
+- Требования к оборудованию и программному обеспечению
+- Руководства и ресурсы для начала работы
 
-## Features
+## Особенности
 
-- Modern, responsive design
-- Detailed information on popular local AI models
-- Comparison of benefits vs drawbacks
-- Real-world use cases and applications
-- Resource guides for getting started
-- Mobile-friendly navigation
+- Современный, адаптивный дизайн
+- Подробная информация о популярных локальных ИИ моделях
+- Сравнение преимуществ и недостатков
+- Реальные случаи использования и применения
+- Руководства по ресурсам для начала работы
+- Удобная навигация для мобильных устройств
 
-## Technologies Used
+## Используемые технологии
 
 - HTML5
-- CSS3 (with Flexbox and Grid)
+- CSS3 (с использованием Flexbox и Grid)
 - JavaScript (ES6+)
-- Responsive design principles
-- Semantic markup
+- Принципы адаптивного дизайна
+- Семантическая разметка
 
-## Project Structure
+## Структура проекта
 
 ```
 /workspace/
-├── index.html          # Main landing page
-├── README.md           # This file
+├── index.html          # Главная страница
+├── README.md           # Этот файл
 └── src/
     ├── css/
-    │   └── style.css   # Main stylesheet
+    │   └── style.css   # Основной файл стилей
     ├── js/
-    │   └── main.js     # JavaScript functionality
+    │   └── main.js     # JavaScript функциональность
     └── images/
-        └── .gitkeep    # Placeholder for images directory
+        └── .gitkeep    # Заполнитель для директории изображений
 ```
 
-## How to Use
+## Как использовать
 
-1. Clone or download this repository
-2. Open `index.html` in your preferred web browser
-3. Navigate through the sections to learn about local AI models
-4. Explore the resources section for getting started guides
+1. Клонируйте или загрузите этот репозиторий
+2. Откройте `index.html` в вашем предпочитаемом веб-браузере
+3. Перейдите по разделам, чтобы узнать о локальных ИИ моделях
+4. Изучите раздел ресурсов для получения руководств по началу работы
 
-## Local Development
+## Локальная разработка
 
-To make changes and preview locally:
+Чтобы внести изменения и просмотреть локально:
 
-1. Edit the HTML, CSS, or JavaScript files as needed
-2. Open `index.html` in your browser to see changes
-3. For live reloading, consider using a local server like:
+1. Отредактируйте HTML, CSS или JavaScript файлы по мере необходимости
+2. Откройте `index.html` в вашем браузере, чтобы увидеть изменения
+3. Для автоматической перезагрузки рассмотрите использование локального сервера, например:
    - Python: `python -m http.server` (Python 3)
    - Node.js: `npx serve`
 
-## Content Coverage
+## Охватываемый контент
 
-The website includes detailed information about:
+Веб-сайт включает подробную информацию о:
 
-- **Popular Models**: LLaMA 2/3, Mistral, Stable Diffusion, Whisper, Bark, GPT4All
-- **Benefits**: Privacy, low latency, cost effectiveness, full control
-- **Drawbacks**: Hardware requirements, setup complexity, maintenance overhead
-- **Use Cases**: Personal assistants, content creation, data analysis, education
-- **Resources**: Deployment tools, hardware guides, tutorials
+- **Популярных моделях**: LLaMA 2/3, Mistral, Stable Diffusion, Whisper, Bark, GPT4All
+- **Преимуществах**: Конфиденциальность, низкая задержка, экономическая эффективность, полный контроль
+- **Недостатках**: Требования к оборудованию, сложность настройки, дополнительные расходы на обслуживание
+- **Применениях**: Персональные ассистенты, создание контента, анализ данных, образование
+- **Ресурсах**: Инструменты развертывания, руководства по оборудованию, обучающие материалы
 
-## Browser Compatibility
+## Совместимость с браузерами
 
 The website is compatible with all modern browsers including:
 
@@ -81,6 +81,6 @@ The website is compatible with all modern browsers including:
 - Safari 12+
 - Edge 79+
 
-## License
+## Лицензия
 
-This project is open source and available under the MIT License.
+Этот проект с открытым исходным кодом и доступен под лицензией MIT.
