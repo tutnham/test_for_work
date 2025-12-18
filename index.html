@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Локальные модели ИИ - Изучение возможностей и применений</title>
+    <meta name="description" content="Откройте для себя мир локальных ИИ моделей. Узнайте о преимуществах, недостатках и практических применениях запуска ИИ моделей на собственном оборудовании.">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <h2>LocalAI<span>RU</span></h2>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home">Главная</a></li>
+                    <li><a href="#models">Модели</a></li>
+                    <li><a href="#benefits">Преимущества</a></li>
+                    <li><a href="#drawbacks">Недостатки</a></li>
+                    <li><a href="#usecases">Применение</a></li>
+                    <li><a href="#resources">Ресурсы</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Раскройте потенциал локальных ИИ моделей</h1>
+                <p>Изучите преимущества, вызовы и реальные применения запуска ИИ моделей на собственном оборудовании. Приватность, настраиваемость и эффективность.</p>
+                <div class="cta-buttons">
+                    <a href="#models" class="btn btn-primary">Изучить модели</a>
+                    <a href="#benefits" class="btn btn-secondary">Узнать преимущества</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="src/images/ai-local.png" alt="Визуализация локальных ИИ моделей">
+            </div>
+        </div>
+    </section>
+
+    <!-- Features/Benefits Section -->
+    <section id="benefits" class="features">
+        <div class="container">
+            <h2>Преимущества локальных ИИ моделей</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="icon">🔒</div>
+                    <h3>Конфиденциальность и безопасность</h3>
+                    <p>Ваши данные никогда не покидают ваше устройство. Обрабатывайте конфиденциальную информацию без зависимости от облачных сервисов или проблем с приватностью.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon">⚡</div>
+                    <h3>Низкая задержка</h3>
+                    <p>Получайте мгновенные ответы без задержек сети. Идеально подходит для приложений в реальном времени и интерактивных взаимодействий.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon">💰</div>
+                    <h3>Экономическая эффективность</h3>
+                    <p>Без повторяющихся затрат на API или платы за использование. Владейте своей ИИ инфраструктурой и масштабируйтесь без ежемесячных платежей.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon">⚙️</div>
+                    <h3>Полный контроль</h3>
+                    <p>Настройте модели, точно настраивайте параметры и изменяйте поведение в соответствии с вашими конкретными потребностями.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon">🌐</div>
+                    <h3>Автономная работа</h3>
+                    <p>Работайте без подключения к интернету. Необходимо для удаленных районов или защищенных сред.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon">🔄</div>
+                    <h3>Итеративная разработка</h3>
+                    <p>Экспериментируйте свободно без ограничений по скорости или квот. Быстро тестировать и улучшать.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Drawbacks Section -->
+    <section id="drawbacks" class="drawbacks">
+        <div class="container">
+            <h2>Рассмотрение и вызовы</h2>
+            <div class="drawbacks-container">
+                <div class="drawback-item">
+                    <h3>Требования к оборудованию</h3>
+                    <p>Передовые модели требуют мощных GPU или специализированного оборудования, которое может быть дорогим изначально.</p>
+                </div>
+                <div class="drawback-item">
+                    <h3>Сложность настройки</h3>
+                    <p>Установка и настройка могут быть сложными для пользователей без технических знаний.</p>
+                </div>
+                <div class="drawback-item">
+                    <h3>Высокая нагрузка на ресурсы</h3>
+                    <p>Запуск больших моделей локально потребляет значительные вычислительные ресурсы и электроэнергию.</p>
+                </div>
+                <div class="drawback-item">
+                    <h3>Обновление моделей</h3>
+                    <p>Вы несете ответственность за обновление моделей и управление версиями вручную.</p>
+                </div>
+                <div class="drawback-item">
+                    <h3>Ограниченные вычислительные возможности</h3>
+                    <p>Потребительское оборудование может не соответствовать облачным сервисам для очень больших моделей или сложных задач.</p>
+                </div>
+                <div class="drawback-item">
+                    <h3>Дополнительные расходы на обслуживание</h3>
+                    <p>Администрирование системы, обновления безопасности и устранение неполадок лежат на вас.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular Models Section -->
+    <section id="models" class="models">
+        <div class="container">
+            <h2>Популярные локальные ИИ модели</h2>
+            <div class="models-grid">
+                <div class="model-card">
+                    <h3>LLaMA 2/3</h3>
+                    <p>Открытые большие языковые модели от Meta, оптимизированные для локального развертывания с различными размерами от 7B до 70B параметров.</p>
+                    <div class="model-meta">
+                        <span class="tag">Языковая</span>
+                        <span class="tag">Открытый исходный код</span>
+                        <span class="tag">Коммерческое использование</span>
+                    </div>
+                </div>
+                <div class="model-card">
+                    <h3>Mistral</h3>
+                    <p>Высокопроизводительная небольшая языковая модель с сильными возможностями рассуждения и эффективным использованием ресурсов.</p>
+                    <div class="model-meta">
+                        <span class="tag">Языковая</span>
+                        <span class="tag">Открытый исходный код</span>
+                        <span class="tag">Эффективная</span>
+                    </div>
+                </div>
+                <div class="model-card">
+                    <h3>Stable Diffusion</h3>
+                    <p>Модель генерации изображений из текста, создающая детализированные изображения из текстовых описаний на вашем локальном оборудовании.</p>
+                    <div class="model-meta">
+                        <span class="tag">Генерация изображений</span>
+                        <span class="tag">Открытый исходный код</span>
+                        <span class="tag">Креативная</span>
+                    </div>
+                </div>
+                <div class="model-card">
+                    <h3>Whisper</h3>
+                    <p>Модель распознавания речи для преобразования аудио в текст с поддержкой нескольких языков.</p>
+                    <div class="model-meta">
+                        <span class="tag">Обработка аудио</span>
+                        <span class="tag">Открытый исходный код</span>
+                        <span class="tag">Многоязычная</span>
+                    </div>
+                </div>
+                <div class="model-card">
+                    <h3>Bark</h3>
+                    <p>Модель преобразования текста в аудио, генерирующая реалистичную речь из текстовых входных данных с различными вариантами голоса.</p>
+                    <div class="model-meta">
+                        <span class="tag">Генерация аудио</span>
+                        <span class="tag">Открытый исходный код</span>
+                        <span class="tag">Синтез речи</span>
+                    </div>
+                </div>
+                <div class="model-card">
+                    <h3>GPT4All</h3>
+                    <p>Коллекция моделей с открытым исходным кодом, обученных на огромной коллекции чистых ассистентных данных.</p>
+                    <div class="model-meta">
+                        <span class="tag">Языковая</span>
+                        <span class="tag">Открытый исходный код</span>
+                        <span class="tag">Простое развертывание</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Use Cases Section -->
+    <section id="usecases" class="usecases">
+        <div class="container">
+            <h2>Практические применения</h2>
+            <div class="usecases-grid">
+                <div class="usecase-card">
+                    <h3>Персональный ассистент</h3>
+                    <p>Создайте приватного ИИ ассистента, который обрабатывает личные задачи, планирование и поиск информации без отправки данных третьим лицам.</p>
+                </div>
+                <div class="usecase-card">
+                    <h3>Создание контента</h3>
+                    <p>Генерируйте статьи, рекламные тексты, посты в блогах и творческий контент с полным контролем над обучающими данными и выводом.</p>
+                </div>
+                <div class="usecase-card">
+                    <h3>Анализ данных</h3>
+                    <p>Анализируйте конфиденциальные бизнес-данные или личные документы с помощью ИИ без раскрытия конфиденциальной информации внешним сервисам.</p>
+                </div>
+                <div class="usecase-card">
+                    <h3>Образовательный инструмент</h3>
+                    <p>Создавайте настраиваемые системы обучения или образовательные помощники, адаптированные к конкретным учебным планам или учебным целям.</p>
+                </div>
+                <div class="usecase-card">
+                    <h3>Помощь в программировании</h3>
+                    <p>Получайте помощь в программировании и предложения без передачи проприетарного кода внешним сервисам.</p>
+                </div>
+                <div class="usecase-card">
+                    <h3>Доступность</h3>
+                    <p>Разрабатывайте инструменты для пользователей с нарушениями зрения или слуха с возможностями обработки в реальном времени.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resources Section -->
+    <section id="resources" class="resources">
+        <div class="container">
+            <h2>Ресурсы для начала работы</h2>
+            <div class="resources-grid">
+                <div class="resource-card">
+                    <h3>Инструменты развертывания</h3>
+                    <ul>
+                        <li>Ollama - Простой запуск локальных моделей</li>
+                        <li>LM Studio - Настольное приложение для локальных моделей</li>
+                        <li>GPT4All - Простая в использовании экосистема моделей</li>
+                        <li>Text Generation WebUI - Полнофункциональный веб-интерфейс</li>
+                    </ul>
+                </div>
+                <div class="resource-card">
+                    <h3>Руководство по оборудованию</h3>
+                    <ul>
+                        <li>NVIDIA RTX 4090 - Высокая производительность для больших моделей</li>
+                        <li>Apple M2/M3 Max - Отличный выбор для пользователей macOS</li>
+                        <li>AMD Radeon 7900 XTX - Экономически эффективная альтернатива</li>
+                        <li>Intel Arc Pro - Перспективный конкурент</li>
+                    </ul>
+                </div>
+                <div class="resource-card">
+                    <h3>Обучающие материалы</h3>
+                    <ul>
+                        <li>Настройка LLaMA 2 локально</li>
+                        <li>Квантование моделей для лучшей производительности</li>
+                        <li>Создание собственных наборов данных для тонкой настройки</li>
+                        <li>Оптимизация скорости вывода</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>LocalAI<span>RU</span></h3>
+                    <p>Ваш исчерпывающий ресурс для изучения локальных ИИ моделей, их преимуществ и практических реализаций.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Быстрые ссылки</h4>
+                    <ul>
+                        <li><a href="#models">Популярные модели</a></li>
+                        <li><a href="#benefits">Преимущества</a></li>
+                        <li><a href="#drawbacks">Вызовы</a></li>
+                        <li><a href="#usecases">Применение</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Ресурсы</h4>
+                    <ul>
+                        <li><a href="#">Документация</a></li>
+                        <li><a href="#">Сообщество</a></li>
+                        <li><a href="#">Обучающие материалы</a></li>
+                        <li><a href="#">GitHub</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 LocalAI RU. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="src/js/main.js"></script>
+</body>
+</html>
